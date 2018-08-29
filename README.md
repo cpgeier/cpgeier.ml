@@ -1,4 +1,4 @@
-![Sample Pic](https://imgur.com/ECUFat2)
+![Sample Pic](https://i.imgur.com/ECUFat2.png)
 
 # cpgeier.ml
 
