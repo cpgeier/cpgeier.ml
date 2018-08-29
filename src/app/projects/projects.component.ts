@@ -13,18 +13,58 @@ export class ProjectsComponent {
     map(({ matches }) => {
       if (matches) {
         return [
-          { title: 'Card 1', cols: 1, rows: 1 },
-          { title: 'Card 2', cols: 1, rows: 1 },
-          { title: 'Card 3', cols: 1, rows: 1 },
-          { title: 'Card 4', cols: 1, rows: 1 }
+          { title: 'SantosNet',
+            subtitle: 'A simple self driving car',
+            cols: 1,
+            rows: 1,
+            image: '../../assets/images/sample.gif',
+            url: 'https://github.com/cpgeier/SantosNet' },
+          { title: '#MeToo',
+            subtitle: 'A visualization of tweets that sparked a movement',
+            cols: 1,
+            rows: 1,
+            image: '../../assets/images/sampleHoya.PNG',
+            url: 'https://github.com/cpgeier/HoyaHacks2018' },
+          { title: 'Binary Relations',
+            subtitle: 'An interactive teaching tool for discrete math',
+            cols: 1,
+            rows: 1,
+            image: '../../assets/images/sampleBinaryRelation.PNG',
+            url: 'https://github.com/cpgeier/BinaryRelation' },
+          { title: 'Neural Images',
+            subtitle: 'Some cool pictures I made using code from A Nerual Implimentation of Artistic Style',
+            cols: 1,
+            rows: 1,
+            image: '../../assets/images/Rotunda + Circuit.jpg',
+            url: 'https://github.com/cpgeier/NeuralImages' }
         ];
       }
 
       return [
-        { title: 'Card 1', cols: 2, rows: 1 },
-        { title: 'Card 2', cols: 1, rows: 1 },
-        { title: 'Card 3', cols: 1, rows: 2 },
-        { title: 'Card 4', cols: 1, rows: 1 }
+        { title: 'SantosNet',
+          subtitle: 'A simple self driving car',
+          cols: 1,
+          rows: 1,
+          image: '../../assets/images/sample.gif',
+          url: 'https://github.com/cpgeier/SantosNet' },
+        { title: '#MeToo',
+          subtitle: 'A visualization of tweets that sparked a movement',
+          cols: 1,
+          rows: 1,
+          image: '../../assets/images/sampleHoya.PNG',
+          url: 'https://github.com/cpgeier/HoyaHacks2018' },
+        { title: 'Binary Relations',
+          subtitle: 'An interactive teaching tool for discrete math',
+          cols: 1,
+          rows: 1,
+          image: '../../assets/images/sampleBinaryRelation.PNG',
+          url: 'https://github.com/cpgeier/BinaryRelation' },
+        { title: 'Neural Images',
+          subtitle: 'Some cool pictures I made using code from A Nerual Implimentation of Artistic Style',
+          cols: 1,
+          rows: 1,
+          image: '../../assets/images/Rotunda + Circuit.jpg',
+          url: 'https://github.com/cpgeier/NeuralImages' }
       ];
     })
   );

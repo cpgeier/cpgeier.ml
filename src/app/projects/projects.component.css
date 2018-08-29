@@ -12,10 +12,11 @@
 
 .more-button {
   position: absolute;
-  top: 5px;
-  right: 10px;
+  top: 20px;
+  right: 20px;
 }
 
-.dashboard-card-content {
-  text-align: center;
+.example-header-image {
+  background-image: url('../../assets/images/GitHub-Mark-120px-plus.png');
+  background-size: cover;
 }

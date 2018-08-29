@@ -8,3 +8,12 @@
   position: relative;
   z-index: 2;
 }
+
+.header-button {
+  margin-right: 25px;
+}
+
+.header-contact-icon {
+  margin-right: 20px;
+  color: #FFF;
+}
